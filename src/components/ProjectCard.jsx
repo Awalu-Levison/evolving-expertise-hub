@@ -3,17 +3,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
 
-interface ProjectCardProps {
-  title: string;
-  description: string;
-  imageUrl: string;
-  techStack: string[];
-  liveUrl?: string;
-  repoUrl?: string;
-  animationDelay?: string;
-}
-
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl, techStack, liveUrl, repoUrl, animationDelay }) => {
+const ProjectCard = ({ title, description, imageUrl, techStack, liveUrl, repoUrl, animationDelay }) => {
   return (
     <div className="project-card" style={{ animationDelay }}>
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
