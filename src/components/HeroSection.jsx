@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-secondary/30 animate-fade-in">
       <div className="container mx-auto px-4 text-center">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6">
-          <span className="block animate-fade-in" style={{ animationDelay: '0.2s' }}>Hi, I'm [Your Name]</span>
+          <span className="block animate-fade-in" style={{ animationDelay: '0.2s' }}>Hi, I'm Awalu Levison</span>
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent animate-fade-in" style={{ animationDelay: '0.4s' }}>Software Engineer</span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.6s' }}>
