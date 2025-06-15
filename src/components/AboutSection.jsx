@@ -22,7 +22,7 @@ const AboutSection = () => {
                 I thrive on learning new technologies and continuously honing my skills in areas like frontend development, UI/UX principles, graphic design, and robust programming languages such as C and Python.
               </p>
               <p className="text-lg text-muted-foreground">
-                When I'm not coding, I enjoy [Your Hobby 1], [Your Hobby 2], and exploring the latest trends in technology and design.
+                When I'm not coding, I enjoy Listening to Music, Watching Movies, and exploring the latest trends in technology and design.
               </p>
             </div>
           </div>
